@@ -5,21 +5,40 @@
     <title>Biopirataria na Prática</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
-
     <style>
       body {
         background-image: url('realistic-shark-ocean.jpg');
-        background-size: cover;       /* Faz a imagem cobrir toda a tela */
-        background-position: center;  /* Centraliza a imagem */
-        background-repeat: no-repeat; /* Evita que a imagem se repita */
-        background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        color: white; /* Garante que o texto fique visível em cima do fundo escuro */
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Uma caixa semitransparente para facilitar a leitura do texto */
+      .container {
+        background-color: rgba(0, 0, 0, 0.7);
+        margin: 50px auto;
+        padding: 20px;
+        max-width: 800px;
+        border-radius: 8px;
       }
     </style>
   </head>
+  
   <body>
-    <header>
-      <h1>Biopirataria no Brasil</h1>
-      <p>Alguns exemplos sobre nossa Biopirataria do Brasil, um crime que deve ser combatido com toda a certeza.</p>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Biopirataria no Brasil</h1>
+        <p>Alguns exemplos sobre a biopirataria no Brasil, um crime que deve ser combatido com toda a certeza.</p>
+      </header>
+
+      <main>
+        <h2>O que é?</h2>
+        <p>A biopirataria consiste na exploração, manipulação e exportação ilegal de recursos biológicos de um país.</p>
+      </main>
+    </div>
+  </body>
+</html>
   </body>
 </html>
