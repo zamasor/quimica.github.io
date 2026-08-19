@@ -1,0 +1,21 @@
+/* Imagem clicável no final da página */
+.chave-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chave-link img {
+  width: 180px;
+  max-width: 80%;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.chave-link img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 15px #00d2ff);
+}
